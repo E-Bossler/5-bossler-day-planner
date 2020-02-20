@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <title>plannerBoss</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">planner<span id="boss">Boss</span></h1>
+          <p class="lead">Own your day.</p>
+          <p id="currentDay" class="lead"></p>
+        </div>
+      </div>
+    <div class="container scheduleContainer">
+        <!-- Timeblocks go here -->
+        <div class="row">
+            <div class="times col-sm-2" id='8'>
+                8:00 to 9:00
+            </div>
+            <div class="objective col-sm-9">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">To do list:</label>
+                        <textarea class="form-control"  id="time8todo" rows="3" placeholder="What do you need to do?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="saveButton btn btn-primary col-sm-1" id='time8btn'>save</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="times col-sm-2" id='9'>
+                9:00 to 10:00
+            </div>
+            <div class="objective col-sm-9">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">To do list:</label>
+                        <textarea class="form-control" id="time9todo" rows="3" placeholder="What do you need to do?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="saveButton btn btn-primary col-sm-1" id='time9btn'>save</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="times col-sm-2" id='10'>
+                10:00 to 11:00
+            </div>
+            <div class="objective col-sm-9">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">To do list:</label>
+                        <textarea class="form-control" id="time10todo" rows="3" placeholder="What do you need to do?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="saveButton btn btn-primary col-sm-1" id='time10btn'>save</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="times col-sm-2" id='11'>
+                11:00 to 12:00
+            </div>
+            <div class="objective col-sm-9">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">To do list:</label>
+                        <textarea class="form-control" id="time11todo" rows="3" placeholder="What do you need to do?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="saveButton btn btn-primary col-sm-1" id='time11btn'>save</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="times col-sm-2" id='12'>
+                12:00 to 1:00
+            </div>
+            <div class="objective col-sm-9">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">To do list:</label>
+                        <textarea class="form-control" id="time12todo" rows="3" placeholder="What do you need to do?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="saveButton btn btn-primary col-sm-1" id='time12btn'>save</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="times col-sm-2" id='1'>
+                1:00 to 2:00
+            </div>
+            <div class="objective col-sm-9">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">To do list:</label>
+                        <textarea class="form-control" id="time1todo" rows="3" placeholder="What do you need to do?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="saveButton btn btn-primary col-sm-1" id='time1btn'>save</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="times col-sm-2" id='2'>
+                2:00 to 3:00
+            </div>
+            <div class="objective col-sm-9">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">To do list:</label>
+                        <textarea class="form-control" id="time2todo" rows="3" placeholder="What do you need to do?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="saveButton btn btn-primary col-sm-1" id='time2btn'>save</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="times col-sm-2" id='3'>
+                3:00 to 4:00
+            </div>
+            <div class="objective col-sm-9">
+                <form >
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">To do list:</label>
+                        <textarea class="form-control" id="time3todo" rows="3" placeholder="What do you need to do?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="saveButton btn btn-primary col-sm-1" id='time3btn'>save</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="times col-sm-2" id='4'>
+                4:00 to 5:00
+            </div>
+            <div class="objective col-sm-9">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">To do list:</label>
+                        <textarea class="form-control" id="time4todo" rows="3" placeholder="What do you need to do?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="saveButton btn btn-primary col-sm-1" id='time4btn'>save</button>
+        </div>
+        <hr>
+        <div class="row">
+            &copy; 2020 Eric S Bossler
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
+
+</body>
+
+</html>
+

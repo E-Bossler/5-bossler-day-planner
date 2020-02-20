@@ -1,0 +1,42 @@
+/* Heading Styles  */
+
+.jumbotron {
+    background-image: linear-gradient(to bottom, slategray, lightskyblue);
+    color: black;
+    font-weight: bold;
+}
+
+#boss {
+    color: gold;
+}
+
+/* Body Styles  */
+
+body {
+    background-color: lightskyblue;
+}
+
+button {
+    background-image: linear-gradient(to top, slategray, skyblue);
+    color: black;
+    font-weight: bold;
+}
+
+.row{
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: slategray;
+    background-color: lightsteelblue;
+    margin: 0 10px 10px 10px;
+}
+
+.times{
+    line-height: 2.5;
+    font-size: 30px;
+}
+
+br {
+    color: blue;
+    border-width: 5px;;
+}
